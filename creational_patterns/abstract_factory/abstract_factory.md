@@ -4,8 +4,6 @@
 
   Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 
-
-
   __Creating your  example__
   * Think of three types factories?
     - Beverage Factory

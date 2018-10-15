@@ -23,9 +23,12 @@ class SparklingWater < Water
 end
 
 class WaterFactory
-  def create_bottles(bottle_no)
-    SparklingWater.new(bottle_no)
+  def create_still_bottles(bottle_no)
     StillWater.new(bottle_no)
+  end
+
+  def create_sparkling_bottles(bottle_no)
+    SparklingWater.new(bottle_no)
   end
 end
 
@@ -35,7 +38,7 @@ class BeverageCompany
 
     @bottles = []
     no_of_bottles.times do |bottle_no|
-      bottle = @beverage_factory.create_bottles(
+      bottle = @beverage_factory.create_still_bottles(
         "#{bottle_no + 1} produced"
       )
       @bottles << bottle
