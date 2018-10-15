@@ -38,3 +38,8 @@ Design Patterns Recap
     * Decorator
     * Facade
     * Flyweight
+
+References:
+
+* https://refactoring.guru/design-patterns/abstract-factory
+* https://www.udemy.com/design-patterns-through-ruby/learn/v4/t/lecture/2362926?start=0
