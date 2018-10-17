@@ -28,11 +28,8 @@ class Cart
   end
 end
 
+# [Run]
 cart = Cart.new
 phone_prototype = CartItem.new('phone', 200)
-
 cart.cart_item_collection['phone'] = phone_prototype
-
 cart.create_cart('phone')
-
-# Can use ruby clone for implementation, for a shallow copy of the object.

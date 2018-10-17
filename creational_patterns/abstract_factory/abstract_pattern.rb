@@ -1,3 +1,4 @@
+require 'pry'
 class Water
   attr_accessor :bottle_no
 
@@ -37,7 +38,7 @@ class BeverageCompany
     @beverage_factory = beverage_factory
 
     @bottles = []
-    no_of_bottles.times do |bottle_no|
+    no_of_bottles.times do |bottle_no|  
       bottle = @beverage_factory.create_still_bottles(
         "#{bottle_no + 1} produced"
       )
@@ -49,3 +50,7 @@ class BeverageCompany
     @bottles.each(&:description)
   end
 end
+
+# [Run]
+beverage_company = BeverageCompany.new(WaterFactory.new, 5)
+beverage_company.show_beverage_description

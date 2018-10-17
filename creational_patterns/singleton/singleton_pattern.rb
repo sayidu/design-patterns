@@ -11,3 +11,7 @@ class Earth
     Sky.instance
   end
 end
+
+# [Run]
+earth = Earth.new
+earth.create_sky

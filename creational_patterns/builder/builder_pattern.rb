@@ -101,3 +101,7 @@ class Dietician
     menu_curator.menu.to_s
   end
 end
+
+# [Run]
+menu_curator = VeganMenuBuilder.new
+menu_created = Dietician.new.create_vegan_meal(menu_curator)
