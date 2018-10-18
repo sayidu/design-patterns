@@ -63,6 +63,5 @@ end
 boiling = BoilingService.new('rice')
 frying = FryingService.new('eggs')
 chef = Chef.new(boiling, frying)
-# queue or log requests
 puts chef.cooking_step1.prepare_meal
 puts chef.cooking_step2.prepare_meal
