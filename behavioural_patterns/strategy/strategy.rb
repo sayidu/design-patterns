@@ -22,10 +22,8 @@ class CustomOrder
 end
 
 # [Run]
-custom_order = CustomOrder.new
-order = Order.new(custom_order, burger_meal: 'fries with chips')
+order = Order.new(CustomOrder.new, burger_meal: 'fries with chips')
 order.generate_order
 
-standard_order = StandardOrder.new
-order = Order.new(standard_order)
+order = Order.new(StandardOrder.new)
 order.generate_order
