@@ -42,7 +42,6 @@ class HighSchool < School
   end
 end
 
-
 # [Run]
 HighSchool.new.apply_for_class
 University.new.apply_for_class
