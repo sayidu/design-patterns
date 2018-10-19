@@ -38,7 +38,7 @@ class BeverageCompany
     @beverage_factory = beverage_factory
 
     @bottles = []
-    no_of_bottles.times do |bottle_no|  
+    no_of_bottles.times do |bottle_no|
       bottle = @beverage_factory.create_still_bottles(
         "#{bottle_no + 1} produced"
       )
