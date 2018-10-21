@@ -7,7 +7,7 @@ Design Patterns Recap
      * Template Method
   - Object Patterns
      * Chain of Responsibility
-     * Observer
+     * [Observer] (behavioural_patterns/observer/observer.rb)
      * Command
      * State
      * Strategy
