@@ -15,7 +15,6 @@ Design Patterns Recap
 * Creational Design Patterns
   - Class Patterns
     * [Factory Method](https://github.com/sayidu/design-patterns/tree/master/creational_patterns/factory_method)
-
   - Object Patterns
     * [Abstract Factory](https://github.com/sayidu/design-patterns/tree/master/creational_patterns/abstract_factory)
     * [Prototype](https://github.com/sayidu/design-patterns/tree/master/creational_patterns/prototype)
