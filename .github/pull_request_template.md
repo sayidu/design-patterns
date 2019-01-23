@@ -1,6 +1,6 @@
 ### PR Description
 
-#### These changes address the story needs by:-
+**These changes address the story needs by:**
 - One
 - Two
 
