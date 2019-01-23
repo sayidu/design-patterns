@@ -1,9 +1,12 @@
-### PR Description
+##### PR Description
 
-**These changes address the story needs by:**
+Description
+
+These changes address the story needs by:
+
 - One
 - Two
 
-### Screenshots
+##### Screenshots
 
-### Resolves From **Trello Board Name**
+##### Resolves From **Trello Board Name**
